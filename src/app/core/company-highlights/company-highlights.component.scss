@@ -1,0 +1,11 @@
+.font-size-60 {
+    font: normal normal normal 60px/64px 'Hurme Geometric Sans 4';
+}
+
+.icon-container {
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-container:hover {
+    transform: rotate(5deg);
+}

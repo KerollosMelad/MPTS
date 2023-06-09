@@ -1,0 +1,14 @@
+.projects-main-title {
+    font: normal normal bold 200px/172px 'Hurme Geometric Sans 4';
+}
+
+.project-sub-title {
+    text-align: center;
+    font: normal normal 600 29px 'Hurme Geometric Sans 4';
+}
+
+@media (max-width: 1200px) {
+    .projects-main-title {
+        text-align: center;
+    }
+}

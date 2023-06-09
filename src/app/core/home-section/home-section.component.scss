@@ -1,0 +1,46 @@
+.light-blue-background {
+    background-color: #57BCE6;
+}
+
+.home-section-header-font {
+    font: normal normal bold 80px/200px 'Poppins', sans-serif;
+}
+
+.home-section-text {
+    font: normal normal 600 40px/119px 'Hurme Geometric Sans 4';
+}
+
+.home-section-card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 7px 12px #00000005;
+    border-radius: 5px 187px 5px 5px;
+    z-index: 1;
+
+}
+
+.home-section-card-text {
+    font: normal normal 200 20px/30px 'Poppins', sans-serif;
+}
+
+.home-section-card-header {
+    font: normal normal bold 28px/42px 'Poppins', sans-serif;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.icon-wrapper img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-wrapper img:hover {
+    transform: scale(1.5);
+    opacity: 0.9;
+}
+
+@media (max-width: 1200px) {
+    .home-section-header-font {
+        font: normal normal bold 25px 'Poppins', sans-serif;
+    }
+}

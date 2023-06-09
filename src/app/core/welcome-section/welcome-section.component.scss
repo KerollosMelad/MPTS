@@ -1,0 +1,22 @@
+.welcome-font {
+    font: normal normal 900 90px/111px 'Hurme Geometric Sans 4';
+}
+
+.low-opacity {
+    opacity: 0.6;
+}
+
+.primary-border {
+    border: 2px solid #00BDD6;
+    height: 100%;
+}
+
+.pioneers-font {
+    font: normal normal 600 40px/119px 'Hurme Geometric Sans 4';
+}
+
+@media(max-width: 1200px) {
+    .welcome-font {
+        font-size: 40px;
+    }
+}

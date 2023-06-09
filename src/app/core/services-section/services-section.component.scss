@@ -1,0 +1,12 @@
+.bg-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+figure {
+    transition: transform 0.4s ease-in-out;
+}
+
+figure:hover {
+    transform: scale(0.9);
+    opacity: 0.8;
+}

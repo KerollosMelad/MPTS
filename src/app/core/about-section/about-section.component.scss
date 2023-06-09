@@ -1,0 +1,49 @@
+.font-60-bold {
+    font: normal normal bold 60px/64px 'Hurme Geometric Sans 4';
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 620px;
+    height: 81vh;
+    object-fit: cover;
+}
+
+.entrance-automation-img {
+    position: absolute;
+    z-index: 0;
+    width: 620px;
+    height: 80vh;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.secondary-border {
+    border: 2px solid #ffffff;
+    position: relative;
+    z-index: 10;
+}
+
+.small-check {
+    font-size: 21px;
+}
+
+.entrance-automation-text-font {
+    text-align: left;
+    font: normal normal normal 19px 'Poppins';
+}
+
+.entrance-automation-section-right-font {
+    font: normal normal 300 25px/37px 'Hurme Geometric Sans 4';
+}
+
+@media (max-width: 1200px) {
+    .text-md-primary {
+        color: #347EB8 !important;
+    }
+}

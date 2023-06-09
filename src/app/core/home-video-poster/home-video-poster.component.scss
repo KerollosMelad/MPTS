@@ -1,0 +1,54 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.wrapper::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: linear-gradient(270deg, #FFFFFF4D 0%, #C0C0C0 67%, #808080 100%);
+}
+
+.font-medium {
+    font: normal normal 300 20px/37px 'Hurme Geometric Sans 4';
+}
+
+.poster-header-font {
+    font: normal normal bold 90px/89px 'Hurme Geometric Sans 4';
+    font-family: 'Hurme Geometric Sans 4';
+}
+
+.primary-button {
+    background-color: #57BCE6;
+    min-width: 200px;
+    min-height: 60px;
+    border-radius: 5px;
+}
+
+.contact-us-btn-container {
+    transition: color 0.3s ease;
+}
+
+.contact-us-btn-container button {
+    transition: transform 0.3s ease;
+}
+
+.contact-us-btn-container button:hover {
+    transform: scale(1.1);
+    background-color: var(--primary-color);
+}
+
+@media (max-width: 1000px) {
+    .text-md-primary {
+        color: #347EB8 !important;
+    }
+
+    .poster-header-md-font {
+        font-size: 25px;
+    }
+
+}

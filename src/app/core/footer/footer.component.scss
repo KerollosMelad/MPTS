@@ -1,0 +1,21 @@
+.footer-header-font {
+    font: normal normal bold 30px 'Poppins', sans-serif;
+}
+
+.footer-text-font {
+    text-align: left;
+    font: normal normal 300 20px Poppins;
+}
+
+.footer-section {
+    transition: color 0.3s ease;
+}
+
+.footer-section a {
+    transition: transform 0.3s ease;
+}
+
+.footer-section a:hover {
+    transform: scale(1.5);
+    opacity: 0.8;
+}

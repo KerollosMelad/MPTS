@@ -1,0 +1,19 @@
+.header-section,
+.nav-menu-text {
+    transition: color 0.3s ease;
+}
+
+.header-section img,
+.nav-menu-text {
+    transition: transform 0.3s ease;
+}
+
+.header-section img:hover,
+.nav-menu-text:hover {
+    transform: scale(1.5);
+    opacity: 0.8;
+}
+
+.nav-menu-text:hover {
+    border-bottom: 1px solid var(--primary-color);
+}

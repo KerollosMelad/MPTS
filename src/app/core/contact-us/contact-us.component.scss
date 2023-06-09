@@ -1,0 +1,55 @@
+.light-secondary-background {
+    background-color: #F5FAFA;
+}
+
+.contact-us-header {
+    font: normal normal bold 136px/146px 'Poppins', sans-serif;
+    color: #347EB8;
+}
+
+.contact-us-border-bottom {
+    border-bottom: 19px solid #57BCE6;
+    width: 400px;
+}
+
+.contact-us-label {
+    font: normal normal normal 20px/139px 'Poppins', sans-serif;
+}
+
+.contact-us-input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    width: 336px;
+    height: 80px;
+    border-color: transparent;
+}
+
+.submit-btn {
+    border-color: transparent;
+    border-radius: 5px;
+    width: 260px;
+    height: 67px;
+    background-color: #347EB8;
+    text-align: center;
+    font: normal normal normal 17px/26px 'Poppins', sans-serif;
+}
+
+@media(max-width: 1200px) {
+    .contact-us-header {
+        font: normal normal bold 25px 'Poppins', sans-serif;
+    }
+
+    .contact-us-label {
+        font: normal normal normal 15px 'Poppins', sans-serif;
+    }
+
+    .contact-us-border-bottom {
+        display: none;
+    }
+
+    .contact-us-header,
+    .submit-btn-container {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
