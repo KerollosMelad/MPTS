@@ -14,6 +14,16 @@
     opacity: 0.8;
 }
 
+.header-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-menu-container {
+    padding-top: 12px;
+    padding-bottom: 21px;
+}
+
 .nav-menu-text:hover {
     border-bottom: 1px solid var(--primary-color);
 }

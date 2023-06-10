@@ -2,10 +2,6 @@
     font: normal normal bold 200px/200px 'Poppins';
 }
 
-.brands-section {
-    margin-top: 208px;
-}
-
 .mb-90 {
     margin-bottom: 90px;
 }
@@ -26,12 +22,27 @@
     .rotated {
         writing-mode: tb-rl;
         transform: rotate(-180deg);
-        height: 900px;
+        height: 800px;
     }
 }
 
 @media(max-width: 1200px) {
     .brands-main-header {
         text-align: center;
+    }
+}
+
+.rotate-animation {
+    opacity: 0;
+    animation: fade-in 4s ease-in-out forwards infinite;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
