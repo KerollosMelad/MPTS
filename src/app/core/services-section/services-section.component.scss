@@ -10,3 +10,30 @@ figure:hover {
     transform: scale(0.9);
     opacity: 0.8;
 }
+
+.services-section {
+    background-image: url('../../../assets/services\ background.svg');
+    background-size: 100% auto;
+    background-position: center;
+    padding: 50px 0;
+    margin-top: 130px;
+}
+
+hr {
+    border: 2px solid #b5ebf3;
+    opacity: 0.7 !important;
+}
+
+.w-88 {
+    width: 88%;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .services-section {
+        padding: 30px 0;
+    }
+}

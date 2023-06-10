@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-.wrapper::after {
+.video-wrapper::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -11,15 +11,6 @@
     height: 100%;
     content: '';
     background-image: linear-gradient(270deg, #FFFFFF4D 0%, #C0C0C0 67%, #808080 100%);
-}
-
-.font-medium {
-    font: normal normal 300 20px/37px 'Hurme Geometric Sans 4';
-}
-
-.poster-header-font {
-    font: normal normal bold 90px/89px 'Hurme Geometric Sans 4';
-    font-family: 'Hurme Geometric Sans 4';
 }
 
 .primary-button {
@@ -42,7 +33,76 @@
     background-color: var(--primary-color);
 }
 
-@media (max-width: 1000px) {
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.heading {
+    font: normal normal bold 90px/89px 'Hurme Geometric Sans 4';
+}
+
+.subheading {
+    margin-bottom: 2rem;
+    font: normal normal 300 20px/37px 'Hurme Geometric Sans 4';
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.mb-180 {
+    margin-bottom: 180px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+
+@media (max-width: 1200px) {
+
+    .heading,
+    .subheading {
+        font-size: 15px;
+    }
+
+    br {
+        display: none;
+    }
+
     .text-md-primary {
         color: #347EB8 !important;
     }

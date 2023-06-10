@@ -2,27 +2,6 @@
     font: normal normal bold 60px/64px 'Hurme Geometric Sans 4';
 }
 
-.overlay-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 620px;
-    height: 81vh;
-    object-fit: cover;
-}
-
-.entrance-automation-img {
-    position: absolute;
-    z-index: 0;
-    width: 620px;
-    height: 80vh;
-}
-
-.z-index-10 {
-    z-index: 10;
-}
-
 .secondary-border {
     border: 2px solid #ffffff;
     position: relative;
@@ -35,21 +14,95 @@
 
 .entrance-automation-text-font {
     text-align: left;
-    font: normal normal normal 19px 'Poppins';
+    font: normal normal normal 16px 'Poppins';
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.entrance-automation-section-right-font {
-    font: normal normal 300 25px/37px 'Hurme Geometric Sans 4';
+.mt-15 {
+    margin-top: 15px;
+}
+
+.white-line {
+    width: 2px;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.paragraph-wrapper {
+    text-align: center;
+    padding: 20px;
+    color: #347EB8;
+    font: normal normal 300 18px 'Hurme Geometric Sans 4';
 }
 
 @media (min-width: 1200px) {
+    .image-wrapper {
+        position: relative;
+    }
+
+    .image {
+        width: 98%;
+        height: auto;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        opacity: 0.9;
+    }
+
+    .image-text {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
     .mt-58 {
         margin-top: 58px;
+    }
+
+    .mt-50 {
+        margin-top: 50px;
     }
 }
 
 @media (max-width: 1200px) {
-    .text-md-primary {
+    i {
+        color: #347EB8
+    }
+
+    .font-60-bold {
+        margin-bottom: 50px;
+        color: #347EB8;
+    }
+
+    .entrance-automation-text-font {
+        text-align: center;
+        font: normal normal normal 25px 'Poppins';
+        color: #fff;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .image-wrapper img {
+        display: none;
+    }
+
+    .image-text {
+        position: static;
+        padding: 20px;
+    }
+
+    .entrance-automation-text-font {
         color: #347EB8 !important;
     }
 }
