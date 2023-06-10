@@ -42,6 +42,12 @@
     font: normal normal 300 25px/37px 'Hurme Geometric Sans 4';
 }
 
+@media (min-width: 1200px) {
+    .mt-58 {
+        margin-top: 58px;
+    }
+}
+
 @media (max-width: 1200px) {
     .text-md-primary {
         color: #347EB8 !important;

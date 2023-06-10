@@ -15,6 +15,13 @@
     font: normal normal 600 40px/119px 'Hurme Geometric Sans 4';
 }
 
+@media (min-width: 1200px) {
+    .mt-130 {
+        margin-top: 130px;
+    }
+
+}
+
 @media(max-width: 1200px) {
     .welcome-font {
         font-size: 40px;
