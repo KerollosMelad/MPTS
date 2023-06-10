@@ -18,6 +18,18 @@
     margin-top: 200px;
 }
 
+.vertical-line {
+    border-right: 2px solid #347EB8;
+}
+
+@media (min-width: 1200px) {
+    .rotated {
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        height: 900px;
+    }
+}
+
 @media(max-width: 1200px) {
     .brands-main-header {
         text-align: center;

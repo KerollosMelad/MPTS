@@ -1,5 +1,6 @@
 .projects-main-title {
     font: normal normal bold 200px/172px 'Hurme Geometric Sans 4';
+    padding-left: 5px;
 }
 
 .project-sub-title {
@@ -24,6 +25,19 @@ img {
     padding: 25px;
 }
 
+.vertical-line {
+    border-left: 2px solid #ffffff;
+}
+
+
+@media (min-width: 1200px) {
+    .rotated {
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        height: 500px;
+        width: 30px;
+    }
+}
 
 @media (max-width: 1200px) {
     .projects-main-title {
