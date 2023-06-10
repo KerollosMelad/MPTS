@@ -4,8 +4,26 @@
 
 .project-sub-title {
     text-align: center;
-    font: normal normal 600 29px 'Hurme Geometric Sans 4';
+    font: normal normal 600 30px 'Hurme Geometric Sans 4';
 }
+
+.font-size-25 {
+    font-size: 20px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+img {
+    border-radius: 60px;
+    padding: 25px;
+}
+
 
 @media (max-width: 1200px) {
     .projects-main-title {
