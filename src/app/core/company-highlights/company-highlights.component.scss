@@ -10,6 +10,15 @@
     transform: rotate(5deg);
 }
 
+.number-container {
+    transition: transform 0.5s ease-in-out;
+}
+
+.number-container:hover {
+    transform: scale(0.8);
+    opacity: 0.8;
+}
+
 .mb-100 {
     margin-bottom: 100px;
 }
