@@ -31,18 +31,3 @@
         text-align: center;
     }
 }
-
-.rotate-animation {
-    opacity: 0;
-    animation: fade-in 4s ease-in-out forwards infinite;
-}
-
-@keyframes fade-in {
-    0% {
-        opacity: 0.2;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}

@@ -1,16 +1,16 @@
 <div class="background-primary w-100 header-container " id="header">
     <div class="container p-4 font-size-20align-items-center w-100">
         <div class="row g-0 d-flex justify-content-between">
-            <div class="col-lg-3 col-xs-12 d-flex align-items-center text-light header-section">
+            <div class="col-xl-3 col-xs-12 d-flex align-items-center text-light header-section">
                 <img src="../../../assets/Icon ionic-ios-call.svg" alt="call us icon" class="me-4 pb-1">
                 <span class="text-light">+971 50 247 1759</span>
             </div>
-            <div class="col-lg-3 col-xs-12 d-flex align-items-center header-section">
+            <div class="col-xl-3 col-xs-12 d-flex align-items-center header-section">
                 <a href="mailto:info@mpts-me.com" class="text-decoration-none"><img
                         src="../../../assets/Icon material-email.svg" alt="email us icon" class="me-4 pb-1">
                     <span class="text-light">info@mpts-me.com</span></a>
             </div>
-            <div class="col-lg-3 col-xs-12 d-flex align-items-center header-section">
+            <div class="col-xl-3 col-xs-12 d-flex align-items-center header-section">
                 <div class="d-flex justify-content-center">
                     <a href="https://www.google.com/maps/place/25.113528010634145,55.20300807857989" target="_blank"
                         class="d-flex justify-content-center text-decoration-none">
@@ -20,7 +20,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-3 col-xs-12 d-flex align-items-center justify-content-end header-section">
+            <div class="col-xl-3 col-xs-12 d-flex align-items-center justify-content-end header-section">
                 <a href="https://www.facebook.com/profile.php?id=100065309777435" target="_blank">
                     <img src="../../../assets/Icon awesome-facebook-f.svg" alt="Facebook" class="me-5">
                 </a>
@@ -40,36 +40,31 @@
 
 </div>
 
-<div class="container p-4 font-size-20 align-items-center font-primary nav-menu-container">
-    <div class="row g-0 d-flex align-items-center font-color-primary">
-        <div class="col-md-3 col-xs-12 text-xl-left d-flex justify-content-start text-sm-center">
-            <img src="../../../assets/MPTS Logo blue.png" alt="MPTS Logo">
-        </div>
-        <div class="col-md-9 col-xs-12 text-uppercase d-flex align-items-center justify-content-between">
-            <a class="font-color-primary text-decoration-none nav-menu-text" href="#">Home</a>
-            <a class="font-color-primary text-decoration-none nav-menu-text" href="#about">About</a>
-            <a class="font-color-primary text-decoration-none nav-menu-text" href="#services">Services</a>
-            <a class="font-color-primary text-decoration-none nav-menu-text" href="#contact">Contact</a>
-            <a class="font-color-primary text-decoration-none nav-menu-text" href="#FAQ">FAQ</a>
-        </div>
+<nav class="container p-4 font-size-20 font-primary navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand img-nav" href="#"> <img src="../../../assets/MPTS Logo blue.png" alt="MPTS Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        (click)="navbarCollapsed = !navbarCollapsed">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent" [class.collapse]="navbarCollapsed">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link font-color-primary nav-menu-text" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-color-primary nav-menu-text" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-color-primary nav-menu-text" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-color-primary nav-menu-text" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link font-color-primary nav-menu-text" href="#FAQ">FAQ</a>
+            </li>
+        </ul>
     </div>
-</div>
-
-<nav class="nav-menu font-primary">
-    <input type="checkbox" id="menu-toggle">
-    <label class="menu-icon me-4" for="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
-    <ul class="menu">
-        <li><a class="font-color-primary text-decoration-none nav-menu-text" href="#" class="me-2">Home</a></li>
-        <li><a class="font-color-primary text-decoration-none nav-menu-text" href="#about" class="me-2">About</a></li>
-        <li><a class="font-color-primary text-decoration-none nav-menu-text" href="#services" class="me-2">Services</a>
-        </li>
-        <li><a class="font-color-primary text-decoration-none nav-menu-text" href="#contact" class="me-2">Contact</a>
-        </li>
-        <li><a class="font-color-primary text-decoration-none nav-menu-text" href="#FAQ" class="me-2">FAQ</a></li>
-    </ul>
-
 </nav>
