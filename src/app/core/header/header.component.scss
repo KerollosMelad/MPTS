@@ -27,3 +27,82 @@
 .nav-menu-text:hover {
     border-bottom: 1px solid var(--primary-color);
 }
+
+@media (min-width: 1200px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu-container {
+        display: block;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    .nav-menu-container {
+        display: none;
+    }
+
+    .nav-menu {
+        font: normal normal normal 20px/27px 'Hurme Geometric Sans 4';
+        display: flex;
+        justify-content: flex-start;
+        margin: 15px;
+        min-width: 50px;
+    }
+
+    .nav-menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+    }
+
+    .nav-menu input[type="checkbox"] {
+        display: none;
+        /* Hide the checkbox */
+    }
+
+    .nav-menu .menu-icon {
+        border-radius: 5px;
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px;
+        margin-right: 10px;
+        background-color: var(--primary-color);
+        /* Customize the background color of the hamburger icon */
+        color: #fff;
+        /* Customize the color of the hamburger icon */
+    }
+
+    .nav-menu .menu-icon span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        /* Customize the color of the hamburger icon's lines */
+    }
+
+    .nav-menu .menu {
+        display: none;
+        /* Hide the menu by default */
+    }
+
+    .nav-menu input[type="checkbox"]:checked~.menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* Show the menu when the checkbox is checked */
+    }
+
+    .nav-menu li a {
+        font: normal normal normal 16px 'Hurme Geometric Sans 4';
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+}

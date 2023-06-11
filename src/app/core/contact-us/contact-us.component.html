@@ -1,7 +1,7 @@
-<div class="light-secondary-background font-color-primary" id="contact">
+<div class="contact-us-container font-color-primary" id="contact">
     <div class="container">
-        <div class="row g-0">
-            <form [formGroup]="formData">
+        <div>
+            <form [formGroup]="formData" class="row g-0">
                 <div class="col-md-6 col-xs-12">
                     <div class="row g-0">
                         <div class="col-md-6 col-xs-12 contact-us-header">
@@ -52,8 +52,8 @@
                         <input type="text-area" name="inquiry" formControlName="inquiry"
                             class="col-md-8 col-xs-12 contact-us-input">
                     </div>
-                    <div class="row g-0 d-flex align-items-center justify-content-xl-end mt-3 submit-btn-container">
-                        <button type="button" class="col-md-8 col-xs-12 submit-btn text-light"
+                    <div class="row g-0 d-flex align-items-center justify-content-center mt-3 submit-btn-container">
+                        <button type="button" class="submit-btn text-light offset-md-4 col-md-8 col-xs-12 "
                             [disabled]="formData.invalid" [ngClass]="{'disabled': formData.invalid}"
                             (click)="onSubmit(formData.value)">Submit</button>
                     </div>

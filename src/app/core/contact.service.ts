@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ContactService {
-  private api = "https://mailthis.to/omnia";
+  private api = "https://mailthis.to/info@mpts-me.com";
   constructor(private http: HttpClient) { }
 
   SendEmail(input: any) {
