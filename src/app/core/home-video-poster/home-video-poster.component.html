@@ -1,8 +1,9 @@
 <div class="row g-0 ">
     <section class="video-section">
         <div class="video-wrapper">
-            <video autoplay loop muted
-                src="../../../assets/700_F_380595949_zm2PiSF7YetGY3HmS3jHCumBPiAa5eyu_ST.mp4"></video>
+            <video onloadedmetadata="this.muted = true" [autoplay]="true" [muted]="true">
+                <source src="../../../assets/700_F_380595949_zm2PiSF7YetGY3HmS3jHCumBPiAa5eyu_ST.mp4">
+            </video>
         </div>
         <div class="content-wrapper mt-90">
             <div class="row d-flex justify-content-center g-0">
