@@ -23,14 +23,16 @@ export class ContactUsComponent implements OnInit {
 
   onSubmit(formData) {
     const emailData = {
-      'Subject': formData.email,
-      'Name': formData.name,
-      'Phone Number': formData.phoneNumber,
-      'Inquiry': formData.inquiry
+      Name: `<br> <div style="text-align:center;">  <b> ${formData.name} </b> </div> `,
+      Phone: `<br> <div style="text-align:center;"> <b> ${formData.phoneNumber} </b> </div>`,
+      Email: `<br> <div style="text-align:center;"> <b> ${formData.name} </b> </div>`,
+      Inquiry: `<br> <div style="text-align:center;"> <b> ${formData.inquiry} </b> </div>`,
     };
 
     this.contactService.SendEmail(emailData).subscribe({
-      next: data => location.href = 'https://mailthis.to/confirm'
+      next: (data) => {
+        location.href = 'https://mailthis.to/confirm'
+      }
     });
 
   }
