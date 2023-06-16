@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services-section.component.scss']
 })
 export class ServicesSectionComponent implements OnInit {
-
+  selectedImage = '';
+  selectedImageSrc = '';
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onImageClick(imgSrc, imgName) {
+    this.selectedImage = imgName;
+    this.selectedImageSrc = imgSrc;
+
+  }
 }

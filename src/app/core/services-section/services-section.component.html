@@ -1,16 +1,21 @@
-<div class="container p-4 services-section" id="services">
+<div class="container p-4 services-section m-b-5" id="services">
     <div class="row">
         <div class="col-lg-4 col-md-12 pb-4 mb-lg-0">
             <figure class="position-relative mb-4">
-                <img src="../../../assets/maintaince services.jpg" class="w-100 shadow-1-strong rounded mb-2"
-                    alt="Maintenance Services" />
-                <figcaption class="position-absolute top-0 start-0 caption text-light p-3 text-uppercase">Maintenance
-                    Services
-                </figcaption>
+                <div (click)="onImageClick('.../../../assets/maintaince services.jpg','Maintenance Services')">
+                    <img src="../../../assets/maintaince services.jpg" class="w-100 shadow-1-strong rounded mb-2"
+                        alt="Maintenance Services" />
+                    <figcaption class="position-absolute top-0 start-0 caption text-light p-3 text-uppercase">
+                        Maintenance
+                        Services
+                    </figcaption>
+                </div>
+
             </figure>
 
             <figure class="position-relative">
-                <div class="d-flex justify-content-end mb-4">
+                <div class="d-flex justify-content-end mb-4"
+                    (click)="onImageClick('../../../assets/sliding gates.jpg','Sliding Gates')">
                     <img src="../../../assets/sliding gates.jpg" class=" shadow-1-strong rounded" alt="Sliding Gates"
                         style="width: 253px; height: 253px;" />
                     <figcaption class="position-absolute top-0 end-0 caption text-light p-3 text-uppercase">
@@ -22,7 +27,8 @@
             </figure>
 
             <figure class="position-relative mt-2">
-                <div class="d-flex justify-content-start">
+                <div class="d-flex justify-content-start"
+                    (click)="onImageClick('../../../assets/security bollards.jpg','Security Bollards')">
                     <img src="../../../assets/security bollards.jpg" class="shadow-1-strong rounded mb-5"
                         alt="Security Bollards" style="width: 270px; height: 300px;" />
                     <figcaption class="position-absolute top-0 text-center caption text-light p-3 text-uppercase">
@@ -36,18 +42,20 @@
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-end"
+                (click)="onImageClick('../../../assets/rolling shutters.png', 'Rolling Shutters')">
                 <figure class="position-relative">
                     <img src="../../../assets/rolling shutters.png" class="shadow-1-strong rounded"
                         alt="Rolling Shutters" style="width: 340px;" />
                     <figcaption class="position-absolute bottom-0 end-0 caption text-light p-3 text-uppercase">
-                        Rolling
-                        Shutters</figcaption>
+                        Rolling Shutters
+                    </figcaption>
                 </figure>
             </div>
 
             <figure class="position-relative">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center"
+                    (click)="onImageClick('../../../assets/security turnstiles.jpg', 'Security Turnstiles')">
 
                     <img src="../../../assets/security turnstiles.jpg" class="w-100 shadow-1-strong rounded mb-4"
                         alt="Security Turnstiles" style="width: 323px; height: 324px;" />
@@ -58,7 +66,8 @@
             </figure>
 
             <figure class="position-relative">
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-end"
+                    (click)="onImageClick('../../../assets/Automatic garage doors.png', 'Automatic Garage Doors')">
                     <img src="../../../assets/Automatic garage doors.png" class="shadow-1-strong rounded"
                         alt="Garage Doors" style="width: 323px; height: 324px;" />
                     <figcaption class="position-absolute top-0 end-0 caption text-light p-3 text-uppercase">Automatic
@@ -72,7 +81,8 @@
 
         <div class="col-lg-4 mb-4 mb-lg-0">
             <figure class="position-relative">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center"
+                    (click)="onImageClick('../../../assets/gate barriers.jpg', 'Gate Barriers')">
                     <img src="../../../assets/gate barriers.jpg" class="w-100 shadow-1-strong rounded"
                         alt="Gate Barriers" style="width: 422px; height: 281px;" />
                     <figcaption class="position-absolute bottom-0 end-0 caption text-light p-3 text-uppercase">Gate
@@ -84,7 +94,8 @@
 
 
             <figure class="position-relative">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center"
+                    (click)="onImageClick('../../../assets/Automatic revolving doors.jpg', 'Automatic Revolving Doors')">
                     <img src="../../../assets/Automatic revolving doors.jpg" class="shadow-1-strong rounded mb-5"
                         alt="Automatic Revolving Doors" style="width: 238px; height: 238px;" />
                     <figcaption
@@ -95,19 +106,24 @@
             </figure>
 
             <figure class="position-relative">
-                <img src="../../../assets/Automatic sliding doors.jpg" class="w-100 shadow-1-strong rounded"
-                    alt="Automatic Sliding Doors" />
-                <figcaption class="position-absolute top-0 end-0 caption text-light p-3 text-uppercase">
-                    Automatic
-                    Sliding Doors</figcaption>
+                <div (click)="onImageClick('../../../assets/Automatic sliding doors.jpg', 'Automatic Sliding Doors')">
+                    <img src="../../../assets/Automatic sliding doors.jpg" class="w-100 shadow-1-strong rounded"
+                        alt="Automatic Sliding Doors" />
+                    <figcaption class="position-absolute top-0 end-0 caption text-light p-3 text-uppercase">
+                        Automatic
+                        Sliding Doors</figcaption>
+                </div>
+
             </figure>
 
 
             <figure class="position-relative">
-                <img src="../../../assets/acess control system.jpg" class="w-100 shadow-1-strong rounded"
-                    alt="Access Control" />
-                <figcaption class="position-absolute bottom-0 start-0 caption text-light p-3 text-uppercase">Access
-                    Control</figcaption>
+                <div (click)="onImageClick('../../../assets/acess control system.jpg', 'Access Control')">
+                    <img src="../../../assets/acess control system.jpg" class="w-100 shadow-1-strong rounded"
+                        alt="Access Control" />
+                    <figcaption class="position-absolute bottom-0 start-0 caption text-light p-3 text-uppercase">Access
+                        Control</figcaption>
+                </div>
             </figure>
 
 
@@ -116,6 +132,31 @@
 
         </div>
 
+    </div>
+</div>
+
+<div class="container p-4 mt-5" *ngIf="selectedImage">
+    <div class="row">
+        <div>
+            <div class="d-flex justify-content-center mt-5">
+                <img *ngIf="selectedImageSrc" [src]="selectedImageSrc" class="mb-2"
+                    style="width: 500px; height: 400px;">
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h3 class="font-color-primary">{{ selectedImage }}</h3>
+                <!-- Customize the text based on the selected image -->
+                <h5 *ngIf="selectedImage === 'Maintenance Services'">Maintenance Services Details</h5>
+                <h5 *ngIf="selectedImage === 'Sliding Gates'">Sliding Gates Details</h5>
+                <h5 *ngIf="selectedImage === 'Security Bollards'">Security Bollards Details</h5>
+                <h5 *ngIf="selectedImage === 'Rolling Shutters'">Rolling Shutters Details</h5>
+                <h5 *ngIf="selectedImage === 'Security Turnstiles'">Security Turnstiles Details</h5>
+                <h5 *ngIf="selectedImage === 'Automatic Garage Doors'">Automatic Garage Doors Details</h5>
+                <h5 *ngIf="selectedImage === 'Gate Barriers'">Gate Barriers Details</h5>
+                <h5 *ngIf="selectedImage === 'Automatic Revolving Doors'">Automatic Revolving Doors Details</h5>
+                <h5 *ngIf="selectedImage === 'Automatic Sliding Doors'">Automatic Sliding Doors Details</h5>
+                <h5 *ngIf="selectedImage === 'Access Control'">Access Control Details</h5>
+            </div>
+        </div>
     </div>
 </div>
 
