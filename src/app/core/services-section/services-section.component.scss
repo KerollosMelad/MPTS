@@ -58,7 +58,6 @@ hr {
 }
 
 .arrow-right {
-
     margin-left: 10px;
 }
 
@@ -66,5 +65,27 @@ hr {
 @media (max-width: 768px) {
     .services-section {
         padding: 30px 0;
+    }
+
+    .img-slider-container {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .img-slider {
+        width: 280px !important;
+        height: 280px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-slider {
+        width: 560px !important;
+        height: 600px !important;
+    }
+
+    .img-slider-container {
+        width: 730px !important;
+        height: 730px !important;
     }
 }

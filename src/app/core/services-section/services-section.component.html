@@ -141,9 +141,8 @@
                 <div class="arrow arrow-left" (click)="showPreviousImage()">
                     <i class="fas fa-chevron-left fa-2xl"></i>
                 </div>
-                <div style="width: 700px; height: 700px;" class="d-flex justify-content-center align-items-center">
-                    <img *ngIf="selectedImageSrc" [src]="selectedImageSrc" class="mb-2"
-                        style="width: 600px; height: 500px;">
+                <div class="d-flex justify-content-center align-items-center img-slider-container">
+                    <img *ngIf="selectedImageSrc" [src]="selectedImageSrc" class="mb-2 img-slider">
                 </div>
 
                 <div class="arrow arrow-right" (click)="showNextImage()">
