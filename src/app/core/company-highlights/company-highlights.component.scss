@@ -26,3 +26,9 @@
 .mt-100 {
     margin-top: 100px;
 }
+
+@media (min-width: 900px) {
+    .p-xl-35 {
+        padding-left: 135px;
+    }
+}
