@@ -111,4 +111,22 @@
         font-size: 25px;
     }
 
+    .text-video-wrapper {
+        display: none !important;
+    }
+
+    .contact-us-btn-container {
+        padding-top: 375px;
+        padding-right: 50px;
+    }
+
+    .video-wrapper {
+        height: 95%;
+        object-fit: cover;
+    }
+
+    .video-section {
+        width: 95%;
+    }
+
 }

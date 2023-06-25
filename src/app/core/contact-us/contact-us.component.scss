@@ -1,6 +1,5 @@
 .contact-us-container {
     background-color: #F5FAFA;
-    padding-top: 215px;
 }
 
 .contact-us-header {
@@ -51,7 +50,19 @@ input:focus {
     border: 1px solid red;
 }
 
+@media (min-width: 1000px) {
+    .contact-us-container {
+        background-color: #F5FAFA;
+        padding-top: 215px;
+    }
+
+}
+
 @media(max-width: 1200px) {
+    .contact-us-container {
+        padding-top: 20px;
+    }
+
     .contact-us-header {
         font: normal normal bold 25px 'Poppins', sans-serif;
     }
