@@ -115,9 +115,8 @@
         display: none !important;
     }
 
-    .contact-us-btn-container {
-        padding-top: 375px;
-        padding-right: 50px;
+    .contact-us-btn {
+       display: none;
     }
 
     .video-wrapper {
@@ -127,6 +126,6 @@
 
     .video-section {
         width: 95%;
+        height: 50vh;
     }
-
 }

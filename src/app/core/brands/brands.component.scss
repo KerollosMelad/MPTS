@@ -26,8 +26,12 @@
     }
 }
 
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
     .brands-main-header {
         text-align: center;
+    }
+
+    .img-container img {
+        height: 290px;
     }
 }
